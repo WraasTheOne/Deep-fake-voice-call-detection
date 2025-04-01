@@ -1,0 +1,16 @@
+{
+    "maxlen": 63,
+    "sample_rate": 16000,
+    "num_mels": 80,
+    "fft_n": 2048,
+    "hop_length": 512,
+    "fmax": 8000,
+    "labels": {
+        "real": 0,
+        "fake": 1
+    },
+    "trim_db": 30,
+    "normalize": true,
+    "d_model": 144,
+    "num_blocks": 4
+}
